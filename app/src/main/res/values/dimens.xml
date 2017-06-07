@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="short_margin">8dp</dimen>
+    <string name="empty_view_no_connection">Network not found. Please re-connect.</string>
+
+</resources>
