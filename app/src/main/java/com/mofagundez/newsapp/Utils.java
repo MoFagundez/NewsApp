@@ -142,9 +142,6 @@ final class Utils {
             JSONArray itemsArray = response.getJSONArray(JSON_RESULTS);
 
             for (int i = 0; i < itemsArray.length(); i++) {
-               //JSONObject response = itemsArray.getJSONObject(i);
-                //JSONObject results = response.getJSONObject(JSON_RESULTS);
-
                 // Extract title, section name and url from JSONObject and pass to a variables
                 // using the method parseNewsInformation
                 String title = parseNewsInformation(itemsArray.getJSONObject(i), JSON_TITLE);
